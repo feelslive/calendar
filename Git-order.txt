@@ -1,0 +1,47 @@
+git help  				帮助
+
+git init  				初始化
+
+git status  				查看未提交的文件   
+
+git add   				添加到暂存区
+
+git commit -m "描述"  			添加到分支  master 默认是主分支
+
+git remote add origin https://github.com/ 添加到远程地址
+
+git push -u origin master  		添加进去
+
+git mv  				修改暂存区的文件名称
+
+git rm  				删除文件
+
+git log --oneline  			查看更新日志
+
+
+git branch dev 				创建dev分支
+git branch -b dev 			创建分支并切换到此分支 
+
+git branch 				查看分支
+
+git checkout dev  			切换到dev分支上 
+
+
+git merge dev  				快进式合并分支
+
+git merge dev --no-ff -m "描述"		禁用快进合并（会把本次合并添加到更新日志中里）
+
+git diff   				查看分支 比较分支 
+
+
+git branch -d dev  			删除分支
+
+git clone https://github.com/../  	克隆代码
+
+git branch -r  				查看远程分支
+
+git push -u origin dev  		把dev分支提交到远程
+
+
+git fetch origin dev 			更新
+git pull origin dev  			更新同事的提交
